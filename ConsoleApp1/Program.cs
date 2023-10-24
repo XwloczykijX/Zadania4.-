@@ -2,9 +2,22 @@
 
 class Kolo
 {
+    private double promien;
+    public Kolo(double r)
+    {
+        promien = r;
+    }
+    public Kolo()
+    {
+    }
     public double Obwod(double r)
     {
-        double obw = 2 * Math.PI *r;
+        double obw = 2 * Math.PI * r;
+        return obw;
+    }
+    public double Obwod()
+    {
+        double obw = 2 * Math.PI * promien;
         return obw;
     }
 }
